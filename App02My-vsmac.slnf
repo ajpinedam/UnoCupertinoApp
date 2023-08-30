@@ -1,0 +1,15 @@
+{
+  "solution": {
+    "path": "App02My.sln",
+    "projects": [
+      "App02My.Tests\\App02My.Tests.csproj",
+      "App02My.UITests\\App02My.UITests.csproj",
+      "App02My.Mobile\\App02My.Mobile.csproj",
+      "App02My.Skia.Gtk\\App02My.Skia.Gtk.csproj",
+      "App02My.Wasm\\App02My.Wasm.csproj",
+      "App02My.Server\\App02My.Server.csproj",
+      "App02My.DataContracts\\App02My.DataContracts.csproj",
+      "App02My\\App02My.csproj"
+    ]
+  }
+}
