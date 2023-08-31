@@ -29,6 +29,10 @@
 	  <CodesignProvision>iOS Team Provisioning Profile: com.pinedax.*</CodesignProvision>
 	  <CodesignKey>Apple Development: Andres Pineda (3CA5A3BPLZ)</CodesignKey>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(TargetFramework)'=='net7.0-ios'">
+	  <ProvisioningType>manual</ProvisioningType>
+	  <CodesignProvision>WC Pinedax</CodesignProvision>
+	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Uno.WinUI" />
 		<PackageReference Include="Uno.Extensions.Configuration" />
